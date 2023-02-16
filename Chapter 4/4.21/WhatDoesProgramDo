@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int c;
+	cout << "enter the c value :";
+	cin >> c;
+	cout << endl;
+	while (c <= 1){
+		if (c % 4 == 0)
+			cout << "&&&" << endl;
+		else
+			cout << "@@@@@" << endl;
+		--c;
+	}
+}
+
+
